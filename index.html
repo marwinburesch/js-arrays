@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script type="module" src="index.js"></script>
+
+    <button id="undoUserButton">undo last add-user</button>
+    <button id="findUsernameButton">find username</button>
+    <button id="searchButton">search DB</button>
+
+    <form name="addUserForm">
+      <label for="userIdInput">
+        User ID:
+        <input
+          name="userIdInput"
+          id="userIdInput"
+          placeholder="userId"
+          value="97"
+          type="number"
+        />
+      </label>
+
+      <label for="userIdInput">
+        Username:
+        <input id="userNameInput" value="" type="text" />
+      </label>
+      <label for="userSubscribe">
+        Subscribe to our newsletter?
+        <input id="userSubscribe" type="checkbox" checked />
+      </label>
+    </form>
+
+    <button id="addUserButton">Add user</button>
+  </body>
+</html>
